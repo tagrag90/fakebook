@@ -4,6 +4,12 @@
 html{
   font-family: sans-serif;
 }
+a {
+  text-decoration: none;
+}
+/*
+header 시작
+*/
 header {
   background: #FF0061 ;
   padding: 15px;
@@ -74,4 +80,55 @@ header .search-area {
 }
 header .search-area ul li {
   display: inline-block;
+}
+/*
+header 끝.
+*/
+
+#top-area {
+  padding: 200px 15px 90px 30px;
+  background: url(/img/bgimg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#top-area .profile-info .user-img {
+  padding: 10px;
+  display: inline-block;
+}
+#top-area .profile-info .user-img img {
+  border-radius: 50%;
+  border: 1px solid #FF0061;
+}
+#top-area .profile-info .user-details {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+}
+#top-area .profile-info .user-details h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+#top-area .profile-info .user-details a {
+  display: inline-block;
+  margin-left: -4px;
+  margin-right: 5%;
+  width: 45%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: rgba(80, 79, 79, 0.5)
+}
+#top-area .profile-info .user-details a:hover {
+  background: rgba(255, 0, 97, 0.7)
 }
