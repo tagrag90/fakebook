@@ -4,6 +4,9 @@
 html{
   font-family: sans-serif;
 }
+body {
+  background-color: #e9ebee;
+}
 a {
   text-decoration: none;
 }
@@ -20,11 +23,16 @@ header a {
   font-size: 12px;
   font-weight: 300;
 }
+header a:hover {
+  text-decoration: none;
+  color: #f8d6d6;
+}
 header .fa {
   color: white;
   font-size: 16px;
 }
 header .logo-area {
+  font-family: billabon;
   color: white;
   display: inline-block;
   width: 20%;
@@ -88,6 +96,7 @@ header 끝.
 #top-area {
   padding: 200px 15px 90px 30px;
   background: url(/img/bgimg.jpg) no-repeat center center;
+  border-bottom: 1px dotted rgb(247, 186, 209);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -106,10 +115,11 @@ header 끝.
   vertical-align: top;
   padding-left: 10px;
 }
-#top-area .profile-info .user-details h3 {
+#top-area .profile-info .user-details h4 {
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 300;
+  
   margin-top: 40px;
   margin-bottom: 10px;
 }
@@ -120,6 +130,7 @@ header 끝.
   width: 45%;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   color: white;
   font-size: 10px;
   padding-top: 8px;
@@ -130,5 +141,101 @@ header 끝.
   background: rgba(80, 79, 79, 0.5)
 }
 #top-area .profile-info .user-details a:hover {
-  background: rgba(255, 0, 97, 0.7)
+  background: rgb(255, 0, 97, 0.7)
 }
+
+.main-area {
+  margin-top: -15px;
+}
+.main-area .card {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #FF0061;
+  text-decoration: none;
+  margin-bottom: 1rem!important;
+}
+.main-area .card .icons {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #FF0061; 
+  text-align: center;
+}
+
+
+
+.main-area .card .icons a {
+  color: #FF0061;
+}
+
+.main-area .card .icons a:hover {
+  color: rgba(250,0,97,0.5);
+}
+
+.main-area .card .text {
+  margin-top: -2px;
+  padding-bottom: 3px;
+  color: #FF0061;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.main-area .card .post-card .head .user-img {
+  display: inline-block;
+  background: url(/img/iu-profile.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin: 3px;
+  border-radius: 50%;
+  border: 1px solid #FF0061;
+}
+.main-area .card .post-card .head .post-info {
+  display: block;
+  float: left;
+  width: 80%;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 30px;
+  color: rgb(85, 84, 84);
+}
+
+
+.main-area .card .post-card .head .post-date {
+  display: block;
+  font-size: 12px;
+  width: 80%;
+  text-align: left;
+  margin: 15px 0 6px 0;
+  margin-left: 75px;
+  color: #cccaca;
+}
+.main-area .card .post-card .head .post-info a {
+  color: #FF0061;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+}
+
+.main-area .card .post-card .head .post-info a:hover {
+  color: aqua;
+}
+
+.row .icons .col-sm {
+  border-right: 1px solid #FF0061;
+}
+
+.row .icons .col-sm.last {
+  border: 0;
+}
+
+.post-body {
+  margin: 0 -20px 0 -20px;
+}
+
